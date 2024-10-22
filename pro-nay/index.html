@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRONay</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> <!-- Enlaza el CSS -->
+</head>
+
+
+<body>
+
+  <!-- <div class="encabezado encabezado-tra">
+    <div class="centro">
+    <img src="C:\FCA\pro-nay\files\logo.jpg" alt="logotipo de nay"> </div>
+  </div> -->
+
+  <!-- <div class="nav-custom">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="containers-fluid">
+        <a class="navbar-brand" href="#">Bienvenidos</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Explora</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Diseña</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produce</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div> -->
+
+<!-- CARRUSEL INICIO -------------------------->
+
+
+
+<div id="carouselExampleRide" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+
+      <img src="C:\FCA\pro-nay\files\carrusel\images\c_01.jpg" class="d-block w-100" alt="perro en computador">
+    </div>
+    
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="C:\FCA\pro-nay\files\carrusel\images\c_02.jpg" class="d-block w-100" alt="perro con camara fotografica en un estudio de grabacion">
+    </div>
+
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="C:\FCA\pro-nay\files\carrusel\images\c_03.jpg" class="d-block w-100" alt="perro pintando en oleo">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<!-- CARRUSEL FIN -------------------------->
+
+
+
+
+
+<!-- MENU INICIO -------------------------->
+
+  <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+
+    <!-- Boton del menu SOBRE MI -->
+    <li class="nav-item element-hovercustome" role="presentation" id="dropdown">
+      
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" 
+        
+        type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre mí</button>
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">
+              <p><!-- Texto descriptivo sobre la imagen. --></p>
+              <img src="C:\FCA\pro-nay\files\MINUATURAS\01s.png" alt="Descripción" class="img-fluid">
+          </li>
+          <li><hr class="dropdown-divider"></li>
+      </ul>
+    </li>
+
+    <!-- Boton del menu PRODUCCION AUDIVISUAL -->
+
+    <li class="nav-item element-hovercustome" role="presentation" id="dropdown">
+        <button class="nav-link dropdown-toggle" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" aria-expanded="false" role="tab" aria-controls="profile-tab-pane" aria-selected="false" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Producción audiovisual</button>
+
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">
+              <p><!-- Texto descriptivo sobre la imagen. --></p>
+              <img src="C:\FCA\pro-nay\files\MINUATURAS\02p.png" alt="Descripción" class="img-fluid">
+          </li>
+          <li><hr class="dropdown-divider"></li>
+      </ul>
+
+    </li>
+
+      <!-- NUEVA IMAGEN AL HACER CLICK -->
+      <div id="imageContainer01" style="display:none;">
+        <img src="ruta/a/tu/otra-imagen.png" alt="Nueva Descripción" class="img-fluid" id="image2">
+      </div>
+
+    <!-- Boton del menu DISEÑO GRAFICO -->
+
+    <li class="nav-item element-hovercustome" role="presentation" id="dropdown">
+      
+    <button class="nav-link dropdown-toggle"    id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" 
+
+ 
+
+    type="button" aria-expanded="false" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Diseño gráfico
+    </button>
+    <ul class="dropdown-menu">
+        <li class="dropdown-item">
+            <p><!-- Texto descriptivo sobre la imagen. --></p>
+            <img src="C:\FCA\pro-nay\files\MINUATURAS\03d.png" alt="Descripción" class="img-fluid">
+        </li>
+        <li><hr class="dropdown-divider"></li>
+  </ul>
+</li>
+
+
+    <!-- Boton del menu ACCIONES -->
+
+   <!--  <li class="nav-item element-hovercustome" role="presentation" id="dropdown">        <button class="nav-link dropdown-toggle" type="button" aria-expanded="false">   Acciones</button>
+      <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Acción 1</a></li>
+            <li><a class="dropdown-item" href="#">Acción 2</a></li>
+            <li><a class="dropdown-item" href="#">Acción 3</a></li> -->
+            <!-- <li><hr class="dropdown-divider"></li> -->
+           
+           <!--  <li class="dropdown-item">
+                <img src="https://via.placeholder.com/100" alt="Descripción" class="img-fluid">
+                <p>Texto descriptivo sobre la imagen.</p>
+            </li> 
+      </ul>
+    </li>-->
+</ul>
+
+
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        MI PERFIL
+        Soy una persona proactiva, responsable, honesta, comprometida, y generadora de cambios positivos en la sociedad, con ética profesional al momento de realizar una producción audiovisual y/o diseño gráfico en entornos públicos y privados.
+    </div>
+    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">Hola 2</div>
+
+    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">Hola 3</div>
+</div>
+
+<!-- MENU FIN -------------------------->
+
+  
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+<script src="style.js"></script> <!-- Enlaza el JavaScript -->
+
+
+</body>
+</html>

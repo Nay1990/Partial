@@ -1,0 +1,97 @@
+body {
+    margin: 0%;
+    border: 1px red;
+    font-family: 'Poppins', sans-serif; /* Aplica Poppins a todo el cuerpo */
+}
+
+
+/* .parent {
+        background-color: #32494B;
+    height: 100vh;
+
+} */
+
+/* .grupo1 {
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+} */
+
+.fuentes1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.centro {
+    border: 1px solid;
+    display: flex;
+justify-content: center;
+align-content: center;
+}
+
+/* .ima2 {
+
+    width: 220px;
+    display: flex;
+    
+} */
+
+
+.iconos {
+    width: 40px;
+}
+
+
+.element-hovercustome:hover {
+
+background-color: yellow;
+transition: all;
+
+
+}
+
+/* .encabezado-tra:hover {
+
+image-orientation: 90grad;
+
+} */ 
+ 
+/* experimentando con código */
+
+
+.nav-item {
+
+    align-items: center;
+}
+
+
+.dropdown-menu {
+    display: none; /* Oculta el menú por defecto */
+    position: absolute; /* Asegura que el menú se posicione correctamente */
+}
+#dropdown:hover .dropdown-menu {
+    display: block; /* Muestra el menú al pasar el mouse sobre el botón */
+}
+.dropdown-item img {
+    max-width: 100%; /* Asegura que la imagen no exceda el tamaño del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+   
+}
+
+
+.dropdown-toggle::after {
+    display: none; /* Oculta la flecha del menú desplegable */
+}
+
+.carousel-item {
+
+        height: 300px; /* Cambia 500px al alto deseado */
+    }
+
+.carousel-control-prev,
+.carousel-control-next {
+        display: none; /* Oculta los botones de control */
+    }
